@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.height-auto {
+  height: auto !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  padding: 100px;
+background-color: rgb(14, 56, 80);
+  border: none;
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+ background-clip: border-box;
+ border-radius: .25rem;
+}
+
+.card-body {
+  width:1050px;
+  height: auto ;
+  padding: 15px 30px 30px;
+  background-color: rgb(248, 242, 242);
+  border-radius: 50px;
+  flex: auto;
+  box-shadow: 0px 10px 20px 0px rgb(229 229 229 / 75%);
+}
+
+.container{
+margin-top: 80px;
+}
+
+.btn-btn-light{
+width: 100px;
+height:40px;
+border-radius: 10px;
+margin-right: 00px;
+}
+
+.form-group{
+  width:300px
+}
+.btn-fill-lg {
+  display: inline-block;
+  border: none;
+  margin-left: 800px;
+  border-radius: 100px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding: 12px 45px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.fw-btn-fill{
+  border-radius: 100px;
+  border-color: blueviolet;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  height: 40px;
+  transition: all 0.3s ease-out;
+  background-color: rgb(186, 125, 243);
+  margin-right: 300px;
+
+}
+
+.centre{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.container1{
+  margin-top: 30px;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+   line-height: 1.5;
+   background-clip: padding-box;
+   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group .form-control {
+   
+  font-size: 14px;
+  color: #111111;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 15px;
+}
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color: currentColor;
+  text-align: center;
+}
+.heading-layout1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading-layout1 .item-title h3 {
+  color: #111111;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 22px;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 20px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  overflow: visible;
+  margin: 0;
+  font-family: inherit;
+  
+}
+.btn-fill-lg{
+  background-color: chocolate;
 }
